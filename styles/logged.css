@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+h1{
+	padding: 100px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 47%;
+}

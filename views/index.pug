@@ -1,0 +1,22 @@
+html
+	head
+		meta(charset="UTF-8")
+		title Google Authorization
+		link(rel='stylesheet', type='text/css', href='../styles/index.css')
+		style
+			include ../styles/index.css
+	body
+		header
+			h1 Is this a logging page?
+		main
+			div.form
+				h3 Please log in.
+				form(action='http://localhost:3000/auth/google', method: 'GET')
+					p.Login
+						| Enter your login:
+						input.text(type='text', name='login')
+					p.Password
+						| Enter your password:
+						input.text(type='password', name='password')
+					input.button(type='submit', value='Submit')
+		footer Adam Nelip 2018	
